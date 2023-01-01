@@ -1,18 +1,15 @@
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home'
+
 
 function App() {
 
-  const title = 'Welcome to the New Blog'
-  const Likes = 50
-  const link = 'https://www.google.com/'
-
   return (
     <div className="App">
+      <Navbar/>
       <div className="content">
-        <h1>{title}</h1>
-        <p>Liked {Likes} times</p>
-
-        <a href={link}>Google Site</a>
+        <Home/>
       </div>
     </div>
   );
