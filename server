@@ -1,0 +1,3 @@
+Watching a json server in a browser
+
+npx json-server --watch data/db.json --port 8000
